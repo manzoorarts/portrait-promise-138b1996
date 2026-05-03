@@ -76,6 +76,27 @@ export const Contact = () => {
             ))}
           </ul>
 
+          <div className="mt-8 flex items-center gap-4">
+            <a
+              href="https://www.instagram.com/manzoorartsgallerylahore"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="h-10 w-10 flex items-center justify-center border border-border hover:border-gold hover:text-gold transition-colors"
+            >
+              <Instagram className="h-5 w-5" strokeWidth={1.5} />
+            </a>
+            <a
+              href="https://www.facebook.com/manzoorartsgallerylahore"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="h-10 w-10 flex items-center justify-center border border-border hover:border-gold hover:text-gold transition-colors"
+            >
+              <Facebook className="h-5 w-5" strokeWidth={1.5} />
+            </a>
+          </div>
+
         </div>
 
         <div className="lg:col-span-7">
