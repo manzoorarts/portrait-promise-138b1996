@@ -15,7 +15,7 @@ export const Hero = () => {
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.95] tracking-tight">
             Manzoor
             <br />
-            <span className="italic text-gold">Art Gallery</span>
+            <span className="italic text-gold">Arts Gallery</span>
             <br />
             Lahore
           </h1>
