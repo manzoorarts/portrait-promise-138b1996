@@ -12,26 +12,38 @@ export const About = () => (
       <div className="lg:col-span-5">
         <div className="flex items-center gap-3 mb-6">
           <span className="gold-rule" />
-          <span className="eyebrow">Introduction</span>
+          <span className="eyebrow">Our Story</span>
         </div>
         <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-          Mian <span className="italic text-gold">Manzoor Ahmad</span>
+          A house built on
+          <span className="italic text-gold"> trust, </span>
+          craft and quiet excellence.
         </h2>
       </div>
 
       <div className="lg:col-span-7 space-y-6 text-foreground/85 leading-relaxed">
         <p className="text-lg">
-          Mian Manzoor Ahmad is a visionary artist, entrepreneur, and the CEO &amp;
-          Founder of Manzoor Arts Gallery Lahore. After completing his MFA, he
-          pursued advanced training and education to refine his artistic and
-          creative direction. With over 15 years of professional experience in
-          New York City, USA, he has worked across diverse creative industries
-          including art and design, advertising, fashion, and film-making. His
-          international exposure and multidisciplinary expertise have shaped a
-          unique artistic perspective, blending contemporary aesthetics with
-          cultural depth. Through his gallery and work, he continues to promote
-          creativity, innovation, and artistic excellence both locally and
-          globally.
+          Manzoor Arts Gallery Lahore proudly stands as a destination for creativity,
+          culture, and excellence in fine art. As the owner, I am committed to offering
+          a curated collection of high-quality artworks that reflect both traditional
+          heritage and contemporary expression. Our gallery provides a welcoming space
+          for artists and art lovers, ensuring authenticity, professionalism, and
+          personalized service. We strive to support emerging talent while showcasing
+          established artists, creating a vibrant artistic community. At Manzoor Art
+          Gallery Lahore, quality, trust, and customer satisfaction remain our top
+          priorities, making every visit a meaningful and inspiring experience for
+          our valued guests.
+        </p>
+        <p>
+          Manzoor Arts Gallery Lahore proudly announces its exclusive portrait solutions
+          for art lovers and collectors. We specialize in creating high-quality,
+          customized portraits that capture personality, emotion, and fine detail.
+          Whether it is a personal keepsake, a family memory, or a professional
+          commission, our skilled artists ensure excellence in every piece. Using
+          premium materials and refined techniques, we deliver artwork that lasts a
+          lifetime. Our commitment to creativity, precision, and customer satisfaction
+          sets us apart. Visit Manzoor Arts Gallery Lahore to experience unique portrait
+          services designed to turn your moments into timeless works of art.
         </p>
 
         <div className="grid sm:grid-cols-3 gap-px bg-border mt-12">
