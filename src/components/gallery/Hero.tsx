@@ -51,11 +51,16 @@ export const Hero = () => {
             <div className="absolute -bottom-6 -right-6 h-32 w-32 bg-gold/20 -z-10" />
             <img
               src={heroImg}
-              alt="Interior of Manzoor Arts Gallery Lahore showing gold-framed classical paintings"
+              alt="Mian Manzoor Ahmad — CEO and Founder of Manzoor Arts Gallery Lahore"
               className="relative w-full h-full object-cover shadow-elegant"
               width={800}
               height={1000}
             />
+          </div>
+          <div className="max-w-md mx-auto mt-8 text-center">
+            <div className="font-serif text-2xl">Mian Manzoor Ahmad</div>
+            <div className="eyebrow text-gold mt-2">CEO / Founder</div>
+            <div className="text-sm text-muted-foreground mt-1">Manzoor Arts Gallery Lahore</div>
           </div>
         </div>
       </div>
