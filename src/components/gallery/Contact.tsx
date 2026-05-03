@@ -62,7 +62,7 @@ export const Contact = () => {
 
           <ul className="space-y-5">
             {[
-              { icon: MapPin, label: "Address",  value: "[Gallery Address], Lahore, Pakistan" },
+              { icon: MapPin, label: "Address",  value: "Manzoor Arts Gallery Lahore, 24-B, PUEHS, Town 1 Raiwind Rd. Lahore, Pakistan 53700" },
               { icon: Phone,  label: "Phone",    value: "[Your Phone Number]" },
               { icon: Mail,   label: "Email",    value: "[your@email.com]" },
               { icon: Clock,  label: "Hours",    value: "By appointment only" },
