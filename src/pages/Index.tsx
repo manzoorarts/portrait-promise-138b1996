@@ -18,6 +18,7 @@ const Index = () => {
       <Portraits />
       <Artists />
       <GalleryGrid />
+      <Videos />
       <AppointmentBanner />
       <Contact />
       <Footer />
