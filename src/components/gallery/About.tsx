@@ -23,7 +23,7 @@ export const About = () => (
 
       <div className="lg:col-span-7 space-y-6 text-foreground/85 leading-relaxed">
         <p className="text-lg">
-          Manzoor Art Gallery Lahore proudly stands as a destination for creativity,
+          Manzoor Arts Gallery Lahore proudly stands as a destination for creativity,
           culture, and excellence in fine art. As the owner, I am committed to offering
           a curated collection of high-quality artworks that reflect both traditional
           heritage and contemporary expression. Our gallery provides a welcoming space
@@ -35,14 +35,14 @@ export const About = () => (
           our valued guests.
         </p>
         <p>
-          Manzoor Art Gallery Lahore proudly announces its exclusive portrait solutions
+          Manzoor Arts Gallery Lahore proudly announces its exclusive portrait solutions
           for art lovers and collectors. We specialize in creating high-quality,
           customized portraits that capture personality, emotion, and fine detail.
           Whether it is a personal keepsake, a family memory, or a professional
           commission, our skilled artists ensure excellence in every piece. Using
           premium materials and refined techniques, we deliver artwork that lasts a
           lifetime. Our commitment to creativity, precision, and customer satisfaction
-          sets us apart. Visit Manzoor Art Gallery Lahore to experience unique portrait
+          sets us apart. Visit Manzoor Arts Gallery Lahore to experience unique portrait
           services designed to turn your moments into timeless works of art.
         </p>
 

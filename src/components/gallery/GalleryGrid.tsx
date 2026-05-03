@@ -69,7 +69,7 @@ export const GalleryGrid = () => {
             <div className="grid md:grid-cols-[1fr_auto]">
               <img src={open.src} alt={open.title} className="w-full max-h-[80vh] object-contain bg-foreground/5" />
               <div className="p-8 md:w-72 md:border-l border-border">
-                <div className="eyebrow mb-3">Manzoor Art Gallery</div>
+                <div className="eyebrow mb-3">Manzoor Arts Gallery</div>
                 <h3 className="font-serif text-3xl leading-tight mb-3">{open.title}</h3>
                 <p className="text-sm text-muted-foreground">{open.caption}</p>
                 <div className="mt-6 pt-6 border-t border-border">

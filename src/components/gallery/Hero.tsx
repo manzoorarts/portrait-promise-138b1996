@@ -51,7 +51,7 @@ export const Hero = () => {
             <div className="absolute -bottom-6 -right-6 h-32 w-32 bg-gold/20 -z-10" />
             <img
               src={heroImg}
-              alt="Interior of Manzoor Art Gallery Lahore showing gold-framed classical paintings"
+              alt="Interior of Manzoor Arts Gallery Lahore showing gold-framed classical paintings"
               className="relative w-full h-full object-cover shadow-elegant"
               width={800}
               height={1000}

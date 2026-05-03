@@ -30,7 +30,7 @@ const Index = () => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ArtGallery",
-            name: "Manzoor Art Gallery Lahore",
+            name: "Manzoor Arts Gallery Lahore",
             description:
               "A curated destination in Lahore for fine art and custom portrait commissions. By appointment only.",
             address: { "@type": "PostalAddress", addressLocality: "Lahore", addressCountry: "PK" },
