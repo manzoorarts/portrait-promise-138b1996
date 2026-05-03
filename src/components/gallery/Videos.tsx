@@ -14,11 +14,11 @@ export const Videos = () => (
         Moments in <span className="italic text-gold">motion</span>.
       </h2>
 
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid sm:grid-cols-2 gap-6 max-w-3xl">
         {videos.map((url) => (
           <div
             key={url}
-            className="relative w-full overflow-hidden border border-border bg-background shadow-soft"
+            className="relative w-full max-w-[280px] mx-auto overflow-hidden border border-border bg-background shadow-soft"
             style={{ aspectRatio: "9 / 16" }}
           >
             <iframe
