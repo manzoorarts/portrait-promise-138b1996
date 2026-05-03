@@ -1,16 +1,44 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { NavBar } from "@/components/gallery/NavBar";
+import { Hero } from "@/components/gallery/Hero";
+import { About } from "@/components/gallery/About";
+import { Portraits } from "@/components/gallery/Portraits";
+import { Artists } from "@/components/gallery/Artists";
+import { GalleryGrid } from "@/components/gallery/GalleryGrid";
+import { AppointmentBanner } from "@/components/gallery/AppointmentBanner";
+import { Contact } from "@/components/gallery/Contact";
+import { Footer } from "@/components/gallery/Footer";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <main className="min-h-screen bg-background text-foreground">
+      <NavBar />
+      <Hero />
+      <About />
+      <Portraits />
+      <Artists />
+      <GalleryGrid />
+      <AppointmentBanner />
+      <Contact />
+      <Footer />
+
+      {/* SEO: structured data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ArtGallery",
+            name: "Manzoor Art Gallery Lahore",
+            description:
+              "A curated destination in Lahore for fine art and custom portrait commissions. By appointment only.",
+            address: { "@type": "PostalAddress", addressLocality: "Lahore", addressCountry: "PK" },
+            areaServed: "Lahore",
+            priceRange: "$$$",
+          }),
+        }}
+      />
+    </main>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
