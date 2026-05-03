@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { format } from "date-fns";
-import { CalendarIcon, MapPin, Mail, Clock } from "lucide-react";
+import { CalendarIcon, MapPin, Mail, Clock, Instagram, Facebook } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -75,6 +75,27 @@ export const Contact = () => {
               </li>
             ))}
           </ul>
+
+          <div className="mt-8 flex items-center gap-4">
+            <a
+              href="https://www.instagram.com/manzoorartsgallerylahore"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="h-10 w-10 flex items-center justify-center border border-border hover:border-gold hover:text-gold transition-colors"
+            >
+              <Instagram className="h-5 w-5" strokeWidth={1.5} />
+            </a>
+            <a
+              href="https://www.facebook.com/manzoorartsgallerylahore"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="h-10 w-10 flex items-center justify-center border border-border hover:border-gold hover:text-gold transition-colors"
+            >
+              <Facebook className="h-5 w-5" strokeWidth={1.5} />
+            </a>
+          </div>
 
         </div>
 
