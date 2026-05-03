@@ -16,12 +16,17 @@ export const Portraits = () => (
           <div className="absolute -inset-3 border border-gold/50" />
           <img
             src={portraitImg}
-            alt="Classical family portrait commissioned at Manzoor Arts Gallery Lahore"
+            alt="Mian Manzoor Ahmad — CEO and Founder of Manzoor Arts Gallery Lahore"
             loading="lazy"
             width={900}
             height={1100}
             className="relative w-full h-full object-cover shadow-elegant"
           />
+        </div>
+        <div className="max-w-sm mt-6 text-center">
+          <div className="font-serif text-2xl">Mian Manzoor Ahmad</div>
+          <div className="eyebrow text-gold mt-2">CEO / Founder</div>
+          <div className="text-sm text-muted-foreground mt-1">Manzoor Arts Gallery Lahore</div>
         </div>
       </div>
 
