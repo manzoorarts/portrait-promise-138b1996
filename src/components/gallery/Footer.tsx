@@ -4,7 +4,7 @@ export const Footer = () => (
       <div className="grid md:grid-cols-3 gap-10 pb-12 border-b border-background/10">
         <div>
           <div className="font-serif text-2xl text-background">
-            Manzoor <span className="text-gold italic">Art Gallery</span>
+            Manzoor <span className="text-gold italic">Arts Gallery Lahore</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed max-w-sm">
             A curated house of fine art in Lahore — heritage, contemporary works
