@@ -21,9 +21,15 @@ export const Hero = () => {
           </h1>
 
           <p className="mt-8 max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed">
-            A destination for creativity, culture, and excellence in fine art —
-            where traditional heritage meets contemporary expression, curated with
-            authenticity, professionalism and personal care.
+            Mian Manzoor Ahmad is a visionary artist, entrepreneur, and the CEO & Founder of
+            Manzoor Arts Gallery Lahore. After completing his MFA, he pursued advanced training
+            and education to refine his artistic and creative direction. With over 15 years of
+            professional experience in New York City, USA, he has worked across diverse creative
+            industries including art and design, advertising, fashion, and film-making. His
+            international exposure and multidisciplinary expertise have shaped a unique artistic
+            perspective, blending contemporary aesthetics with cultural depth. Through his gallery
+            and work, he continues to promote creativity, innovation, and artistic excellence both
+            locally and globally.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
