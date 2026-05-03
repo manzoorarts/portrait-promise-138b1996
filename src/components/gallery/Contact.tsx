@@ -78,7 +78,7 @@ export const Contact = () => {
 
           <div className="mt-8 flex items-center gap-4">
             <a
-              href="https://www.instagram.com/manzoorartsgallerylahore"
+              href="https://www.instagram.com/manzoorartsgallerylahore/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
