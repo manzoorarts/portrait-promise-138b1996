@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { User, Users, Briefcase, ArrowRight } from "lucide-react";
-import portraitImg from "@/assets/art-7.jpg";
+import portraitImg from "@/assets/custom-portrait.jpg";
 
 const services = [
   { icon: User, title: "Personal Keepsakes", desc: "Singular portraits that hold a lifetime in their stillness." },
