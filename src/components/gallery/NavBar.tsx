@@ -34,11 +34,8 @@ export const NavBar = () => {
       )}
     >
       <div className="container flex items-center justify-between gap-6">
-        <a href="#home" className="flex flex-col leading-none">
-          <span className="font-serif text-xl md:text-2xl tracking-tight">
-            Manzoor <span className="text-gold">Art Gallery</span>
-          </span>
-          <span className="eyebrow mt-1 hidden sm:block">Lahore · Est. Fine Art</span>
+        <a href="#home" className="flex items-center" aria-label="Manzoor Arts Gallery Lahore">
+          <img src={logo} alt="Manzoor Arts Gallery Lahore" className="h-12 md:h-14 w-auto object-contain" />
         </a>
 
         <nav className="hidden lg:flex items-center gap-8">
