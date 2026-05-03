@@ -32,7 +32,7 @@ export const Footer = () => (
       </div>
 
       <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-background/60">
-        <p>© {new Date().getFullYear()} Manzoor Art Gallery Lahore. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Manzoor Arts Gallery Lahore. All rights reserved.</p>
         <p className="italic font-serif text-sm">Quality · Trust · Satisfaction</p>
       </div>
     </div>

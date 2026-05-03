@@ -16,7 +16,7 @@ export const Portraits = () => (
           <div className="absolute -inset-3 border border-gold/50" />
           <img
             src={portraitImg}
-            alt="Classical family portrait commissioned at Manzoor Art Gallery Lahore"
+            alt="Classical family portrait commissioned at Manzoor Arts Gallery Lahore"
             loading="lazy"
             width={900}
             height={1100}
