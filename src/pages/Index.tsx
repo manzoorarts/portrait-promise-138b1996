@@ -2,7 +2,7 @@ import { NavBar } from "@/components/gallery/NavBar";
 import { Hero } from "@/components/gallery/Hero";
 import { About } from "@/components/gallery/About";
 import { Portraits } from "@/components/gallery/Portraits";
-import { Artists } from "@/components/gallery/Artists";
+
 import { GalleryGrid } from "@/components/gallery/GalleryGrid";
 import { Videos } from "@/components/gallery/Videos";
 import { AppointmentBanner } from "@/components/gallery/AppointmentBanner";
