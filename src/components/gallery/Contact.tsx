@@ -78,14 +78,6 @@ export const Contact = () => {
             ))}
           </ul>
 
-          <div className="mt-10 flex items-center gap-4">
-            <a href="#" aria-label="Instagram" className="h-10 w-10 grid place-items-center border border-gold/50 text-gold hover:bg-gold hover:text-accent-foreground transition-colors">
-              <Instagram className="h-4 w-4" />
-            </a>
-            <a href="#" aria-label="Facebook" className="h-10 w-10 grid place-items-center border border-gold/50 text-gold hover:bg-gold hover:text-accent-foreground transition-colors">
-              <Facebook className="h-4 w-4" />
-            </a>
-          </div>
         </div>
 
         <div className="lg:col-span-7">
