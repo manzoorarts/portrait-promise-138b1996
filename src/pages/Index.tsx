@@ -4,6 +4,7 @@ import { About } from "@/components/gallery/About";
 import { Portraits } from "@/components/gallery/Portraits";
 import { Artists } from "@/components/gallery/Artists";
 import { GalleryGrid } from "@/components/gallery/GalleryGrid";
+import { Videos } from "@/components/gallery/Videos";
 import { AppointmentBanner } from "@/components/gallery/AppointmentBanner";
 import { Contact } from "@/components/gallery/Contact";
 import { Footer } from "@/components/gallery/Footer";
@@ -17,6 +18,7 @@ const Index = () => {
       <Portraits />
       <Artists />
       <GalleryGrid />
+      <Videos />
       <AppointmentBanner />
       <Contact />
       <Footer />
