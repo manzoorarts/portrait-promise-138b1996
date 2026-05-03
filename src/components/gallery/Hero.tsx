@@ -13,11 +13,11 @@ export const Hero = () => {
           </div>
 
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.95] tracking-tight">
+            <span className="italic text-gold">Mian</span>
+            <br />
             Manzoor
             <br />
-            <span className="italic text-gold">Arts Gallery</span>
-            <br />
-            Lahore
+            Ahmad
           </h1>
 
           <p className="mt-8 max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed">
