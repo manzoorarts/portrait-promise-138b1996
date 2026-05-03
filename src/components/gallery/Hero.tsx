@@ -56,10 +56,6 @@ export const Hero = () => {
               width={800}
               height={1000}
             />
-            <div className="absolute -top-6 -left-6 px-4 py-3 bg-background border border-border shadow-soft">
-              <div className="eyebrow">Featured</div>
-              <div className="font-serif text-lg leading-tight">Heritage Hall</div>
-            </div>
           </div>
         </div>
       </div>
