@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { format } from "date-fns";
-import { CalendarIcon, MapPin, Phone, Mail, Clock, Instagram, Facebook, MessageCircle } from "lucide-react";
+import { CalendarIcon, MapPin, Mail, Clock } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -63,8 +63,6 @@ export const Contact = () => {
           <ul className="space-y-5">
             {[
               { icon: MapPin, label: "Address",  value: "Manzoor Arts Gallery Lahore, 24-B, PUEHS, Town 1 Raiwind Rd. Lahore, Pakistan 53700" },
-              { icon: Phone,  label: "Phone",    value: "+92 336 425 6666" },
-              { icon: MessageCircle, label: "WhatsApp", value: "+92 301 653 6789" },
               { icon: Mail,   label: "Email",    value: "manzoor_mehboob@yahoo.com" },
               { icon: Clock,  label: "Hours",    value: "By appointment only" },
             ].map(({ icon: Icon, label, value }) => (
