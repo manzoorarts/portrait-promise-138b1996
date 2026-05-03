@@ -23,11 +23,6 @@ export const Portraits = () => (
             className="relative w-full h-full object-cover shadow-elegant"
           />
         </div>
-        <div className="max-w-sm mt-6 text-center">
-          <div className="font-serif text-2xl">Mian Manzoor Ahmad</div>
-          <div className="eyebrow text-gold mt-2">CEO / Founder</div>
-          <div className="text-sm text-muted-foreground mt-1">Manzoor Arts Gallery Lahore</div>
-        </div>
       </div>
 
       <div className="lg:col-span-7 order-1 lg:order-2">
