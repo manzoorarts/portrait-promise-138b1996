@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-gallery.jpg";
+import heroImg from "@/assets/heritage-hall.jpg";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CalendarCheck } from "lucide-react";
 
