@@ -14,6 +14,15 @@ import brightNoon from "@/assets/exhibition/bright-noon.jpg";
 import morningBreeze from "@/assets/exhibition/morning-breeze.jpg";
 import blessings from "@/assets/exhibition/blessings.jpg";
 import underTheSea from "@/assets/exhibition/under-the-sea.jpg";
+import rejoicing from "@/assets/exhibition/rejoicing.jpg";
+import melodyOfFuchsis from "@/assets/exhibition/melody-of-fuchsis.jpg";
+import blueSymphony from "@/assets/exhibition/blue-symphony.jpg";
+import shiftingLight from "@/assets/exhibition/shifting-light.jpg";
+import goldenShower from "@/assets/exhibition/golden-shower.jpg";
+import joyfulBlossoms from "@/assets/exhibition/joyful-blossoms.jpg";
+import goldenHours from "@/assets/exhibition/golden-hours.jpg";
+import gloryOfDusk from "@/assets/exhibition/glory-of-dusk.jpg";
+import blowingWind from "@/assets/exhibition/blowing-wind.jpg";
 
 const works = [
   { src: ceo, title: "Mian Manzoor Ahmad", caption: "CEO, Visual Artist / Designer" },
@@ -30,6 +39,15 @@ const works = [
   { src: morningBreeze, title: "Morning Breeze", caption: "Acrylic on Canvas · 36\" × 36\" · P1225" },
   { src: blessings, title: "Blessings", caption: "Acrylic on Canvas · 36\" × 36\" · P1125" },
   { src: underTheSea, title: "Under the Sea", caption: "Acrylic on Canvas · 36\" × 36\" · P1525" },
+  { src: rejoicing, title: "Rejoicing", caption: "Acrylic on Canvas · 36\" × 36\" · P0725" },
+  { src: melodyOfFuchsis, title: "Melody of Fuchsis", caption: "Acrylic on Canvas · 60\" × 36\" · P0225" },
+  { src: blueSymphony, title: "Blue Symphony", caption: "Acrylic on Canvas · 60\" × 36\" · P0125" },
+  { src: shiftingLight, title: "Shifting Light", caption: "Acrylic on Canvas · 48\" × 30\" · P0625" },
+  { src: goldenShower, title: "Golden Shower", caption: "Acrylic on Canvas · 48\" × 30\" · P1725" },
+  { src: joyfulBlossoms, title: "Joyful Blossoms", caption: "Mix Media on paper · 10\" × 11\" · P2225" },
+  { src: goldenHours, title: "Golden Hours", caption: "Mix Media on paper · 10\" × 11\" · P2425" },
+  { src: gloryOfDusk, title: "Glory of Dusk", caption: "Mix Media on paper · 10\" × 11\" · P2525" },
+  { src: blowingWind, title: "Blowing Wind", caption: "Mix Media on paper · 10\" × 11\" · P2725" },
 ];
 
 export const GalleryGrid = () => {
