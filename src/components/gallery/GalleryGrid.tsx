@@ -6,6 +6,14 @@ import statement2 from "@/assets/exhibition/statement-2.jpg";
 import serenity from "@/assets/exhibition/serenity.jpg";
 import reflection1 from "@/assets/exhibition/reflection-1.jpg";
 import gullELala from "@/assets/exhibition/gull-e-lala.jpg";
+import redShelter from "@/assets/exhibition/red-shelter.jpg";
+import scarletEmbrace from "@/assets/exhibition/scarlet-embrace.jpg";
+import purityOfLight from "@/assets/exhibition/purity-of-light.jpg";
+import savannah from "@/assets/exhibition/savannah.jpg";
+import brightNoon from "@/assets/exhibition/bright-noon.jpg";
+import morningBreeze from "@/assets/exhibition/morning-breeze.jpg";
+import blessings from "@/assets/exhibition/blessings.jpg";
+import underTheSea from "@/assets/exhibition/under-the-sea.jpg";
 
 const works = [
   { src: ceo, title: "Mian Manzoor Ahmad", caption: "CEO, Visual Artist / Designer" },
@@ -14,6 +22,14 @@ const works = [
   { src: serenity, title: "Serenity", caption: "Acrylic on Canvas · 36\" × 36\" · P0625" },
   { src: reflection1, title: "Reflection-I", caption: "Acrylic on Canvas · 36\" × 36\" · P0525" },
   { src: gullELala, title: "Gull-e-lala", caption: "Acrylic on Canvas · 36\" × 36\" · P0925" },
+  { src: redShelter, title: "Red Shelter", caption: "Acrylic on Canvas · 36\" × 36\" · P1325" },
+  { src: scarletEmbrace, title: "Scarlet Embrace", caption: "Acrylic on Canvas · 36\" × 36\" · P0825" },
+  { src: purityOfLight, title: "Purity of Light", caption: "Acrylic on Canvas · 36\" × 36\" · P0425" },
+  { src: savannah, title: "Savannah", caption: "Acrylic on Canvas · 36\" × 36\" · P0325" },
+  { src: brightNoon, title: "Bright Noon", caption: "Acrylic on Canvas · 36\" × 36\" · P1025" },
+  { src: morningBreeze, title: "Morning Breeze", caption: "Acrylic on Canvas · 36\" × 36\" · P1225" },
+  { src: blessings, title: "Blessings", caption: "Acrylic on Canvas · 36\" × 36\" · P1125" },
+  { src: underTheSea, title: "Under the Sea", caption: "Acrylic on Canvas · 36\" × 36\" · P1525" },
 ];
 
 export const GalleryGrid = () => {
