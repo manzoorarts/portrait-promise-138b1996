@@ -1,5 +1,4 @@
 const videos = [
-  "https://www.facebook.com/reel/1494217837954096",
   "https://www.facebook.com/manzoor.ahmad.773/videos/3859959890987091/",
 ];
 
