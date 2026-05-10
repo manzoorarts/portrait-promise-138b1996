@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import ceo from "@/assets/exhibition/ceo.jpg";
 import artistStatement from "@/assets/exhibition/artist-statement.jpg";
 import statement2 from "@/assets/exhibition/statement-2.jpg";
