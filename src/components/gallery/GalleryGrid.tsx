@@ -5,6 +5,7 @@ import artistStatement from "@/assets/exhibition/artist-statement.jpg";
 import statement2 from "@/assets/exhibition/statement-2.jpg";
 import serenity from "@/assets/exhibition/serenity.jpg";
 import reflection1 from "@/assets/exhibition/reflection-1.jpg";
+import reflection2 from "@/assets/exhibition/reflection-2.jpg";
 import gullELala from "@/assets/exhibition/gull-e-lala.jpg";
 import redShelter from "@/assets/exhibition/red-shelter.jpg";
 import scarletEmbrace from "@/assets/exhibition/scarlet-embrace.jpg";
@@ -47,6 +48,7 @@ const works = [
   { src: statement2, title: "Eternal Resonance", caption: "Artist Statement (continued)" },
   { src: serenity, title: "Serenity", caption: "Acrylic on Canvas · 36\" × 36\" · P0625" },
   { src: reflection1, title: "Reflection-I", caption: "Acrylic on Canvas · 36\" × 36\" · P0525" },
+  { src: reflection2, title: "Reflection-II", caption: "Acrylic on Canvas · 36\" × 36\" · P1425" },
   { src: gullELala, title: "Gull-e-lala", caption: "Acrylic on Canvas · 36\" × 36\" · P0925" },
   { src: redShelter, title: "Red Shelter", caption: "Acrylic on Canvas · 36\" × 36\" · P1325" },
   { src: scarletEmbrace, title: "Scarlet Embrace", caption: "Acrylic on Canvas · 36\" × 36\" · P0825" },
