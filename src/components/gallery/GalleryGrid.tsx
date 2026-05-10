@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import ceo from "@/assets/exhibition/ceo.jpg";
 import artistStatement from "@/assets/exhibition/artist-statement.jpg";
 import statement2 from "@/assets/exhibition/statement-2.jpg";
@@ -89,6 +90,19 @@ const works = [
 export const GalleryGrid = () => {
   const [open, setOpen] = useState<number | null>(null);
 
+  const goPrev = () => setOpen((i) => (i === null ? null : (i - 1 + works.length) % works.length));
+  const goNext = () => setOpen((i) => (i === null ? null : (i + 1) % works.length));
+
+  useEffect(() => {
+    if (open === null) return;
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") goPrev();
+      if (e.key === "ArrowRight") goNext();
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [open]);
+
   return (
     <section id="gallery" className="py-24 md:py-32 bg-secondary/40 border-y border-border/60">
       <div className="container">
@@ -130,8 +144,22 @@ export const GalleryGrid = () => {
         <Dialog open={open !== null} onOpenChange={(o) => !o && setOpen(null)}>
           <DialogContent className="max-w-4xl">
             {open !== null && (
-              <div>
+              <div className="relative">
                 <img src={works[open].src} alt={works[open].title} className="w-full h-auto" />
+                <button
+                  onClick={goPrev}
+                  aria-label="Previous"
+                  className="absolute left-2 top-1/2 -translate-y-1/2 bg-background/80 hover:bg-background border border-border/60 rounded-full p-2 transition-colors"
+                >
+                  <ChevronLeft className="w-5 h-5" />
+                </button>
+                <button
+                  onClick={goNext}
+                  aria-label="Next"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 bg-background/80 hover:bg-background border border-border/60 rounded-full p-2 transition-colors"
+                >
+                  <ChevronRight className="w-5 h-5" />
+                </button>
                 <div className="mt-4 text-center">
                   <h3 className="font-serif text-2xl italic text-gold">{works[open].title}</h3>
                   <p className="text-sm text-muted-foreground mt-1">{works[open].caption}</p>
