@@ -23,6 +23,16 @@ import joyfulBlossoms from "@/assets/exhibition/joyful-blossoms.jpg";
 import goldenHours from "@/assets/exhibition/golden-hours.jpg";
 import gloryOfDusk from "@/assets/exhibition/glory-of-dusk.jpg";
 import blowingWind from "@/assets/exhibition/blowing-wind.jpg";
+import mesmerisingSunset from "@/assets/exhibition/mesmerising-sunset.jpg";
+import campusLandscape from "@/assets/exhibition/campus-landscape.jpg";
+import untamedBeauty from "@/assets/exhibition/untamed-beauty.jpg";
+import sunFlowers from "@/assets/exhibition/sun-flowers.jpg";
+import sunset from "@/assets/exhibition/sunset.jpg";
+import twinsGreet from "@/assets/exhibition/twins-greet.jpg";
+import kashmirVally2 from "@/assets/exhibition/kashmir-vally-2.jpg";
+import infinitePath2 from "@/assets/exhibition/infinite-path-2.jpg";
+import echoesHiddenPath from "@/assets/exhibition/echoes-hidden-path.jpg";
+import kashmirVally1 from "@/assets/exhibition/kashmir-vally-1.jpg";
 
 const works = [
   { src: ceo, title: "Mian Manzoor Ahmad", caption: "CEO, Visual Artist / Designer" },
@@ -48,6 +58,16 @@ const works = [
   { src: goldenHours, title: "Golden Hours", caption: "Mix Media on paper · 10\" × 11\" · P2425" },
   { src: gloryOfDusk, title: "Glory of Dusk", caption: "Mix Media on paper · 10\" × 11\" · P2525" },
   { src: blowingWind, title: "Blowing Wind", caption: "Mix Media on paper · 10\" × 11\" · P2725" },
+  { src: mesmerisingSunset, title: "Mesmerising Sunset", caption: "Pastel on paper · 9\" × 12\" · P2825" },
+  { src: campusLandscape, title: "Campus Landscape - I", caption: "Pastel on paper · 9\" × 12\" · P2925" },
+  { src: untamedBeauty, title: "Untamed Beauty", caption: "Pastel on paper · 9\" × 12\" · P3125" },
+  { src: sunFlowers, title: "Sun Flowers", caption: "Pastel on paper · 12\" × 9\" · P3425" },
+  { src: sunset, title: "Sunset", caption: "Pastel on paper · 12\" × 9\" · P3525" },
+  { src: twinsGreet, title: "Twins Greet", caption: "Pastel on paper · 12\" × 9\" · P3625" },
+  { src: kashmirVally2, title: "Kashmir Vally - II", caption: "Pastel on paper · 12\" × 9\" · P3725" },
+  { src: infinitePath2, title: "Infinite Path - II", caption: "Pastel on paper · 12\" × 9\" · P3825" },
+  { src: echoesHiddenPath, title: "Echoes of the Hidden Path", caption: "Pastel on paper · 12\" × 9\" · P3925" },
+  { src: kashmirVally1, title: "Kashmir Vally - I", caption: "Pastel on paper · 12\" × 9\" · P4025" },
 ];
 
 export const GalleryGrid = () => {
