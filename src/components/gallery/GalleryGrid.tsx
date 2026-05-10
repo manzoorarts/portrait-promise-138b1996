@@ -33,6 +33,13 @@ import kashmirVally2 from "@/assets/exhibition/kashmir-vally-2.jpg";
 import infinitePath2 from "@/assets/exhibition/infinite-path-2.jpg";
 import echoesHiddenPath from "@/assets/exhibition/echoes-hidden-path.jpg";
 import kashmirVally1 from "@/assets/exhibition/kashmir-vally-1.jpg";
+import campusFields3 from "@/assets/exhibition/campus-fields-3.jpg";
+import whispers from "@/assets/exhibition/whispers.jpg";
+import watersJourney from "@/assets/exhibition/waters-journey.jpg";
+import remoteWhispers from "@/assets/exhibition/remote-whispers.jpg";
+import campusFields1 from "@/assets/exhibition/campus-fields-1.jpg";
+import campusLandscape3 from "@/assets/exhibition/campus-landscape-3.jpg";
+import rythemRhyme from "@/assets/exhibition/rythem-rhyme.jpg";
 
 const works = [
   { src: ceo, title: "Mian Manzoor Ahmad", caption: "CEO, Visual Artist / Designer" },
@@ -68,6 +75,13 @@ const works = [
   { src: infinitePath2, title: "Infinite Path - II", caption: "Pastel on paper · 12\" × 9\" · P3825" },
   { src: echoesHiddenPath, title: "Echoes of the Hidden Path", caption: "Pastel on paper · 12\" × 9\" · P3925" },
   { src: kashmirVally1, title: "Kashmir Vally - I", caption: "Pastel on paper · 12\" × 9\" · P4025" },
+  { src: campusFields3, title: "Campus Fields - III", caption: "Pastel on paper · 12\" × 9\" · P4125" },
+  { src: whispers, title: "Whispers", caption: "Pastel on paper · 12\" × 9\" · P4225" },
+  { src: watersJourney, title: "Water's Journey", caption: "Pastel on paper · 12\" × 9\" · P4325" },
+  { src: remoteWhispers, title: "Remote Whispers", caption: "Pastel on paper · 8\" × 5.5\" · P4425" },
+  { src: campusFields1, title: "Campus Fields - I", caption: "Pastel on paper · 12\" × 9\" · P4425" },
+  { src: campusLandscape3, title: "Campus Landscape - III", caption: "Pastel on paper · 8\" × 5.5\" · P4625" },
+  { src: rythemRhyme, title: "Rythem Rhyme", caption: "Pastel on paper · 8\" × 5.5\" · P4725" },
 ];
 
 export const GalleryGrid = () => {
