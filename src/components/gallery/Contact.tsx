@@ -88,7 +88,7 @@ export const Contact = () => {
               <Instagram className="h-5 w-5" strokeWidth={1.5} />
             </a>
             <a
-              href="https://www.facebook.com/manzoorartsgallerylahore"
+              href="https://www.facebook.com/people/Manzoor-Arts-Gallery-Lahore/61588212201871/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
