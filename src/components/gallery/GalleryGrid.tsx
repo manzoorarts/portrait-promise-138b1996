@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import ceo from "@/assets/exhibition/ceo.jpg";
 import artistStatement from "@/assets/exhibition/artist-statement.jpg";
 import statement2 from "@/assets/exhibition/statement-2.jpg";
 import serenity from "@/assets/exhibition/serenity.jpg";
@@ -44,7 +43,6 @@ import campusLandscape3 from "@/assets/exhibition/campus-landscape-3.jpg";
 import rythemRhyme from "@/assets/exhibition/rythem-rhyme.jpg";
 
 const works = [
-  { src: ceo, title: "Mian Manzoor Ahmad", caption: "CEO, Visual Artist / Designer" },
   { src: artistStatement, title: "Artist Statement", caption: "Prof. Dr. Shahida Manzoor" },
   { src: statement2, title: "Eternal Resonance", caption: "Artist Statement (continued)" },
   { src: serenity, title: "Serenity", caption: "Acrylic on Canvas · 36\" × 36\" · P0625" },
