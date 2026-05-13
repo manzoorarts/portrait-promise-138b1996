@@ -62,7 +62,7 @@ export const Contact = () => {
 
           <ul className="space-y-5">
             {[
-              { icon: MapPin, label: "Address",  value: "Manzoor Arts Gallery Lahore, 24-B, PUEHS, Town 1 Raiwind Rd. Lahore, Pakistan 53700" },
+              { icon: MapPin, label: "Address",  value: "Manzoor Arts Gallery Lahore, 24-B, PUEHS, Town-1, Raiwind Rd. Lahore, Pakistan 53700" },
               { icon: Mail,   label: "Email",    value: "info@manzoorartsgallerylahore.com" },
               { icon: Mail,   label: "CEO",      value: "ceo@manzoorartsgallerylahore.com" },
               { icon: Clock,  label: "Hours",    value: "By appointment only" },
