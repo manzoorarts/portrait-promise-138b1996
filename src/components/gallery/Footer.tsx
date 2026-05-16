@@ -7,7 +7,7 @@ export const Footer = () => (
             Manzoor <span className="text-gold italic">Arts Gallery Lahore</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed max-w-sm">
-            A curated house of fine art in Lahore — heritage, contemporary works
+            A curated house of fine art in Lahore —- heritage, contemporary works
             and bespoke portrait commissions.
           </p>
         </div>
