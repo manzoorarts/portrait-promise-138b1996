@@ -23,7 +23,7 @@ export const About = () => (
 
       <div className="lg:col-span-7 space-y-6 text-foreground/85 leading-relaxed">
         <p className="text-lg">
-          Manzoor Arts Gallery Lahore proudly stands as a destination for creativity,
+          Manzoor Arts Gallery Lahore proudly stand as a destination for creativity,
           culture, and excellence in fine art. As the owner, I am committed to offering
           a curated collection of high-quality artworks that reflect both traditional
           heritage and contemporary expression. Our gallery provides a welcoming space
