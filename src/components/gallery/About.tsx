@@ -3,7 +3,7 @@ import { ShieldCheck, Sparkles, HandHeart } from "lucide-react";
 const values = [
   { icon: ShieldCheck, title: "Authenticity", desc: "Every piece verified, sourced and presented with integrity." },
   { icon: Sparkles, title: "Heritage & Modern", desc: "Traditional masters alongside contemporary voices." },
-  { icon: HandHeart, title: "Personal Service", desc: "An attentive, unhurried experience for every guest." },
+  { icon: HandHeart, title: "Personal Services", desc: "An attentive, unhurried experience for every guest." },
 ];
 
 export const About = () => (
