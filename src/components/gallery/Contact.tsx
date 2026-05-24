@@ -48,7 +48,7 @@ export const Contact = () => {
     <section id="contact" className="py-24 md:py-32">
       <div className="container max-w-3xl">
 
-        <div className="lg:col-span-5">
+        <div>
           <div className="flex items-center gap-3 mb-6">
             <span className="gold-rule" />
             <span className="eyebrow">Visit & Inquire</span>
