@@ -3,7 +3,7 @@ import { ShieldCheck, Sparkles, HandHeart } from "lucide-react";
 const values = [
   { icon: ShieldCheck, title: "Authenticity", desc: "Every piece verified, sourced and presented with integrity." },
   { icon: Sparkles, title: "Heritage & Modern", desc: "Traditional masters alongside contemporary voices." },
-  { icon: HandHeart, title: "Personal Services", desc: "An attentive, unhurried experience for every guest." },
+  { icon: HandHeart, title: "Personal Service", desc: "An attentive, unhurried experience for every guest." },
 ];
 
 export const About = () => (
@@ -23,7 +23,7 @@ export const About = () => (
 
       <div className="lg:col-span-7 space-y-6 text-foreground/85 leading-relaxed">
         <p className="text-lg">
-          Manzoor Arts Gallery Lahore proudly stands as a destination for creativity,
+          Manzoor Arts Gallery Lahore proudly standss as a destination for creativity,
           culture, and excellence in fine art. As the owner, I am committed to offering
           a curated collection of high-quality artworks that reflect both traditional
           heritage and contemporary expression. Our gallery provides a welcoming space
