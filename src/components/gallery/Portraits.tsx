@@ -36,11 +36,7 @@ export const Portraits = () => (
           <span className="italic text-gold">Crafted to Last.</span>
         </h2>
         <p className="text-foreground/85 leading-relaxed max-w-2xl">
-          We specialize in creating high-quality, customized portraits that capture
-          personality, emotion and fine detail. Whether a personal keepsake, a family
-          memory or a professional commission, our skilled artists ensure excellence
-          in every piece — using premium materials and refined techniques to deliver
-          artwork that lasts a lifetime.
+          Manzoor Arts Gallery Lahore proudly presents its exclusive portrait services, thoughtfully designed for art lovers, collectors, and individuals who value meaningful artistic expression. Our gallery specializes in creating premium-quality customized portraits that beautifully capture personality, emotion, elegance, and fine detail. Whether you are seeking a cherished personal keepsake, a memorable family portrait, or a professionally commissioned artwork, our experienced artists are dedicated to delivering exceptional craftsmanship in every piece. By combining refined artistic techniques with high-quality materials, we create portraits that reflect both beauty and lasting value. At Manzoor Arts Gallery Lahore, we believe every portrait tells a unique story, and our commitment to creativity, precision, authenticity, and customer satisfaction ensures an outstanding artistic experience. Visit our gallery to discover personalized portrait solutions that transform your precious moments into timeless works of art.
         </p>
 
         <div className="mt-10 grid sm:grid-cols-3 gap-6">
