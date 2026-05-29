@@ -32,9 +32,6 @@ export const Hero = () => {
                 Book an Appointment <ArrowRight className="ml-2 h-4 w-4" />
               </a>
             </Button>
-            <Button asChild variant="ghost" size="lg" className="rounded-none h-12 px-2 hover:bg-transparent hover:text-gold">
-              <a href="#gallery">Explore the Collection →</a>
-            </Button>
           </div>
 
           <div className="mt-10 inline-flex items-center gap-3 px-4 py-3 border border-gold/40 bg-secondary/50">
