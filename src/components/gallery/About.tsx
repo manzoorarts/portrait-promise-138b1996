@@ -21,30 +21,12 @@ export const About = () => (
         </h2>
       </div>
 
-     
- <div className="lg:col-span-7 space-y-6 text-foreground/85 leading-relaxed">
+      <div className="lg:col-span-7 space-y-6 text-foreground/85 leading-relaxed">
         <p className="text-lg">
-          Manzoor Arts Gallery Lahore proudly standss as a destination for creativity,
-          culture, and excellence in fine art. As the owner, I am committed to offering
-          a curated collection of high-quality artworks that reflect both traditional
-          heritage and contemporary expression. Our gallery provides a welcoming space
-          for artists and art lovers, ensuring authenticity, professionalism, and
-          personalized service. We strive to support emerging talent while showcasing
-          established artists, creating a vibrant artistic community. At Manzoor Art
-          Gallery Lahore, quality, trust, and customer satisfaction remain our top
-          priorities, making every visit a meaningful and inspiring experience for
-          our valued guests...
+          Manzoor Arts Gallery Lahore proudly stands as a distinguished destination for creativity, culture, and artistic excellence. Dedicated to celebrating the beauty of fine art, the gallery presents a carefully curated collection of exceptional artworks that blend traditional heritage with contemporary expression. As the owner, I remain committed to creating an inspiring environment where artists and art enthusiasts can connect through originality, passion, and creativity.
         </p>
         <p>
-          Manzoor Arts Gallery Lahore proudly announces its exclusive portrait solutions
-          for art lovers and collectors. We specialize in creating high-quality,
-          customized portraits that capture personality, emotion, and fine detail.
-          Whether it is a personal keepsake, a family memory, or a professional
-          commission, our skilled artists ensure excellence in every piece. Using
-          premium materials and refined techniques, we deliver artwork that lasts a
-          lifetime. Our commitment to creativity, precision, and customer satisfaction
-          sets us apart. Visit Manzoor Arts Gallery Lahore to experience unique portrait
-          services designed to turn your moments into timeless works of art.
+          Our gallery offers a warm and welcoming space that values authenticity, professionalism, and personalized service, ensuring every visitor enjoys a memorable artistic experience. We strongly believe in supporting emerging talent while also showcasing the work of established artists, helping to build a vibrant and progressive artistic community. At Manzoor Arts Gallery Lahore, quality, trust, and customer satisfaction are at the heart of everything we do. Every artwork tells a story, and every visit is designed to inspire, enrich, and leave a lasting impression on our valued guests.
         </p>
 
         <div className="grid sm:grid-cols-3 gap-px bg-border mt-12">
